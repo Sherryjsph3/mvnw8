@@ -96,7 +96,7 @@ html {
 }
 .headshot-wrapper {
     max-width:1440px;
-    height: 809px;
+    height: 609px;
     position: absolute;
     z-index: 4;
     margin: 0 auto;
@@ -118,6 +118,10 @@ html {
     bottom: 110px;
     right: 180px;
 }
+#carouselControls .carousel-inner {
+    height:609px;
+    margin: -430px 0 0 0;
+}
 .caption-wrapper {
     padding: 50px 0 0 0;
     z-index: 7;
@@ -132,13 +136,13 @@ html {
     width: 546px;
     height: 92px;
 }
-.black-arrow {
+/* .black-arrow {
     float: right;
     margin-right: -100px;
     height:38px;
     width: 19px;
 
-}
+} */
 .read-more-btn {
     font-family: 'Open Sans';
     font-weight: 600;
@@ -157,6 +161,8 @@ html {
 }
 .whoweare-icon {
     margin: 80px 0 0 40px;
+    /* position: absolute; */
+    /* z-index: 1; */
 }
 
 /* ======= how it works section ======= */
@@ -165,7 +171,7 @@ html {
     text-align: center;
     position: absolute;
     z-index: 7;
-    margin: 800px 0 0 0;
+    /* margin: 600px 0 0 0; */
 }
 .howitworks-title {
     font-family: 'Open Sans';
