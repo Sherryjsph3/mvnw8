@@ -61,8 +61,8 @@ html {
     padding: 100px 0 0 0;
 }
 .welcome-icon{
-float:right;
-margin: -205px 30px 0 0;
+    float:right;
+    margin: -205px 30px 0 0;
 }
 .welcome-title {
     text-align: center;
@@ -156,7 +156,7 @@ margin: -205px 30px 0 0;
   
 }
 .whoweare-icon {
-    margin: 80px 0 0 50px;
+    margin: 80px 0 0 40px;
 }
 
 /* ======= how it works section ======= */
@@ -260,3 +260,70 @@ margin: -205px 30px 0 0;
     background: url("../assets/availability.png") no-repeat center;
     height: 534px;
 }
+/* ======= clients -==== */
+.clients-icon {
+    float: left;
+    margin: -83px 0 0 100px;
+}
+.client-row {
+    background: url("../assets/transparent-layer.png") no-repeat center;
+    background-size: cover;
+    /* position: absolute; */
+    /* z-index: 1; */
+    width: 100%;
+    height:427px;
+    margin: 190px 0 0 0;
+}
+.quote{
+    font-family: 'Open Sans';
+    font-size: 18px;
+    color: #000;
+    margin:0 260px;
+    text-align: center;
+}
+.quote-name {
+    font-family: 'Open Sans';
+    font-weight: bold;
+    font-size: 20px;
+    color: #000;
+    margin: 0;
+    text-align: center;
+}
+#quote-carousel .carousel-inner {
+    height: 427px;
+}
+
+#quote-carousel .carousel-item{
+    width: 100%;
+    text-align: center;
+    /* position: relative; */
+}
+
+/* .carousel-indicators {
+    top: 320px;
+   
+} */
+
+/* .carousel-indicators button{
+    width: 92px;
+    height: 8px;
+   
+    
+    margin:0 50px 50px 0 ;
+    border: none;
+    outline: none;
+    background-color: rgb(92, 180, 249) ;
+    background-color: black;
+    position: absolute;
+}
+
+.carousel-indicators .active {
+    width: 92px;
+    height: 8px;
+    margin: 0 50px 50px 0 ;
+    top: 320px;
+  
+    border: none;
+    outline: none;
+    background-color: rgb(92, 180, 249) ;
+} */
