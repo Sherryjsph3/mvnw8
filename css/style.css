@@ -37,6 +37,9 @@ html {
     vertical-align: middle;
     cursor: pointer;
 }
+.menu-btn {
+    margin: 0 12px 0 0;
+}
 .header-row {
     background: url("../assets/gym-hero.png") no-repeat center;
     background-size: cover;
@@ -336,7 +339,7 @@ html {
     margin: 100px 0 0 0;
 }
 .bottom-logo {
-margin: 250spx 0 0 80px;
+margin: 250px 0 0 80px;
 float: left;
 }
 
@@ -403,13 +406,13 @@ float: left;
 }
 .details-row {
     max-width: 1100px;
-    margin: 154px auto;
+    margin: 154px auto 0;
 }
 .detail-panel {
     width: 426px;
     height: 437px;
     margin: 0 59px 94px;
-    background-color:rgb(155, 175, 191, 0.3);
+    background-color:rgb(155, 175, 191, 0.15);
     display: inline-block;
     vertical-align: middle;
 }
