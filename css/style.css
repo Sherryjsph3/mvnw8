@@ -10,6 +10,7 @@ html {
     padding: 0;
     margin: 0;
     width: 100%;
+    font-family: 'Open Sans';
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -29,7 +30,7 @@ html {
     margin: 0 auto -15px;
 }
 .logo {
-    height: 8s0px;
+    height: 80px;
     margin: -50px auto;
     text-align: center;
     display: inline-block;
@@ -399,4 +400,44 @@ float: left;
     color: rgb(155 175 191);
     letter-spacing: 12.75px;
     margin-top: 100px;
+}
+.details-row {
+    max-width: 1100px;
+    margin: 154px auto;
+}
+.detail-panel {
+    width: 426px;
+    height: 437px;
+    margin: 0 59px 94px;
+    background-color:rgb(155, 175, 191, 0.3);
+    display: inline-block;
+    vertical-align: middle;
+}
+.detail-icon {
+    width: 120px;
+    height: 120px;
+    margin: 33px 153px;
+}
+.detail-title {
+    text-align: center;
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 18px;
+}
+.detail-divider {
+    width: 100px;
+    height: 3px;
+    margin: 19px 163px;
+    background-color: rgb(92,180, 249);
+    display: inline-block;
+    vertical-align: middle;
+}
+.detail-description {
+    color: black;
+    text-align: center;
+    font-family: 'Roboto';
+    width: 355px;
+    height: 122px;
+    font-size: 14px;
+    margin: 21px auto;
 }
