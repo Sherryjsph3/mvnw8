@@ -330,34 +330,6 @@ html {
     background-color: rgb(92, 180, 249) !important;
 } 
 
-/* NAVIGATION BOTTOM */
-.bottom-hero {
-    background: url("../assets/bottom-hero.jpg") no-repeat center;
-    background-size: cover;
-    width: 100%;
-    height: 368px;
-    margin: 100px 0 0 0;
-}
-.bottom-logo {
-margin: 250px 0 0 80px;
-float: left;
-}
-
-.bottom-list {
-    color: #fff;
-    font-family: 'Open Sans';
-    font-size: 20px;
-    list-style: none;
-    
-}
-
-.bottom-nav {
-   padding-top: 150px;
-   float: left;
-   margin-left: 60px;
-}
-
-
 
 /* ABOUT PAGE */
 /* ======= about us section ======= */
@@ -444,3 +416,105 @@ float: left;
     font-size: 14px;
     margin: 21px auto;
 }
+
+
+/* EDWARD PAGE */
+/* ======= trainer section ======= */
+.trainer-title {
+    font-family: 'Open Sans';
+    font-weight: normal;
+    font-size: 65px;
+    color: rgb(155 175 191);
+    letter-spacing: 12.75px;
+    margin-top: 100px;
+    text-align: center;
+}
+.trainer-wrapper{
+    height: 1140px;
+    /* position: absolute; */
+    /* z-index: 4; */
+    margin: 0 auto 0;
+    bottom: 0;
+    /* left: 0; */
+    /* right: 0; */
+    max-width: 1440px;
+    
+}
+
+a {
+    text-decoration: none;
+}
+a:link {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+.edward-title {
+    font-family: 'Open Sans';
+    font-weight: normal;
+    font-size: 40px;
+    letter-spacing: 6.8px;
+    color: rgb(155 175 191);
+}
+.edward-text {
+    font-family: 'Roboto';
+    font-size: 18px;
+    margin: 0 60px 0 0;
+}
+.right {
+    max-width: 620px;
+    text-align: justify;
+    margin: 85px 0 0 760px;
+    position: absolute;
+}
+.ed-pic-one {
+    width: 520px;
+    height: 665px;
+    margin: 85px 0 0 190px;
+    /* margin: 85px auto 0; */
+    /* position: absolute; */
+    /* left: 0; */
+    /* right: 0; */
+}
+.ed-pic-two {
+    /* position: absolute; */
+    width: 694px;
+    height: 474px;
+    margin: -190px 280px 0 0;
+    position: absolute;
+    right: 0;
+    /* left: 0; */
+}
+
+
+
+/* NAVIGATION BOTTOM */
+.bottom-hero {
+    background: url("../assets/bottom-hero.jpg") no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 368px;
+    margin: 100px 0 0 0;
+}
+.bottom-logo {
+margin: 250px 0 0 80px;
+float: left;
+}
+
+.bottom-list {
+    color: #fff;
+    font-family: 'Open Sans';
+    font-size: 20px;
+    list-style: none;
+    
+}
+
+.bottom-nav {
+   padding-top: 150px;
+   float: left;
+   margin-left: 60px;
+}
+
+
+
