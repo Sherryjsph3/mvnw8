@@ -523,8 +523,21 @@ a:hover {
     width: 100%;
     margin-bottom: -6px;
 }
-
-
+.next-btn {
+    margin:79px 60px 79px auto;
+    text-align: right;
+    cursor: pointer;
+}
+.trainer-colton {
+    font-family: 'Roboto';
+    font-size: 32px;
+    margin-left:30px;
+    color:#000;
+    
+}
+.right-arrow {
+    font-family: Rob
+}
 
 
 /* NAVIGATION BOTTOM */
@@ -536,22 +549,27 @@ a:hover {
     margin: 100px 0 0 0;
 }
 .bottom-logo {
-margin: 250px 0 0 80px;
-float: left;
+    margin: 250px 0 0 80px;
+    float: left;
 }
-
+.bottom-logo-trainer {
+    margin: 196px 0 0 80px;
+    float: left;
+}
 .bottom-list {
     color: #fff;
-    font-family: 'Open Sans';
-    font-size: 20px;
+    font-family: 'Roboto';
+    font-size: 18px;
     list-style: none;
-    
+    display: inline-block;
+    margin-right:45px;
 }
 
 .bottom-nav {
    padding-top: 150px;
-   float: left;
+   text-align: right;
    margin-left: 60px;
+   
 }
 
 
