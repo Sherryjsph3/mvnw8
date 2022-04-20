@@ -31,10 +31,10 @@ html {
 }
 .logo {
     height: 80px;
-    margin: -50px auto;
+    /* margin: -50px auto; */
     text-align: center;
-    display: inline-block;
-    vertical-align: middle;
+    /* display: inline-block;
+    vertical-align: middle; */
     cursor: pointer;
 }
 .menu-btn {
@@ -486,8 +486,33 @@ a:hover {
     right: 0;
     /* left: 0; */
 }
+.cb-pic-one {
+    width: 520px;
+    height: 600px;
+    margin: 85px 0 0 190px;
+    /* margin: 85px auto 0; */
+    /* position: absolute; */
+    /* left: 0; */
+    /* right: 0; */
+}
+.cb-pic-two {
+    /* position: absolute; */
+    width: 694px;
+    height: 435px;
+    margin: -90px 200px 0 0;
+    position: absolute;
+    right: 0;
+    /* left: 0; */
+}
 .video-row {
     background: url("../assets/video-img.jpg") no-repeat center;
+    background-size: cover;
+    height: 650px;
+    width: 1320px;
+    margin: 116px auto 0;
+}
+.video-row2 {
+    background: url("../assets/video-cb.jpg") no-repeat center;
     background-size: cover;
     height: 650px;
     width: 1320px;
@@ -548,14 +573,15 @@ a:hover {
     height: 368px;
     margin: 100px 0 0 0;
 }
-.bottom-logo {
+.bottom-logo,  .bottom-logo-trainer2  {
     margin: 250px 0 0 80px;
     float: left;
 }
-.bottom-logo-trainer {
-    margin: 196px 0 0 80px;
+.bottom-logo-trainer{
+    margin: 185px 0 0 80px;
     float: left;
 }
+
 .bottom-list {
     color: #fff;
     font-family: 'Roboto';
