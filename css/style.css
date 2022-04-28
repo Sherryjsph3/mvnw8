@@ -613,12 +613,16 @@ a:hover {
     height: 368px;
     margin: 100px 0 0 0;
 }
-.bottom-logo,  .bottom-logo-trainer2  {
+.bottom-logo  {
     margin: 250px 0 0 80px;
     float: left;
 }
-.bottom-logo-trainer{
+.bottom-logo-trainer,  .bottom-logo-trainer2{
     margin: 185px 0 0 80px;
+    float: left;
+}
+.bottom-logo-about{
+    margin: 150px 0 0 80px;
     float: left;
 }
 
