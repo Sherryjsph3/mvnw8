@@ -121,6 +121,7 @@ html {
     font-family: 'Open Sans';
     font-size: 18px;
     font-weight: normal;
+    display: flex;
 }
 .book-btn {
     border: none;
@@ -644,6 +645,34 @@ a:hover {
    margin-left: 60px;
    
 }
-
+@media(max-width: 1199px) {
+    .header-row {
+        height: 700px;
+    }
+    .header-title {
+        padding:255px 0 0 0;
+    } 
+    .welcome-text {
+        width: 889px;
+    }
+    .headshot-thumb {
+        width:530px;
+        bottom: 52px;
+    }
+    .headshot-black {
+        width: 530px;
+        height: 200px;
+        bottom: 179px;
+        right: 111px;
+    }
+    .caption-wrapper {
+        padding: 15px;
+    }
+    .caption-quote {
+        font-size: 14px;
+        width: 500px;
+        margin: 0 auto;
+    }
+}
 
 
