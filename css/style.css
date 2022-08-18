@@ -212,7 +212,7 @@ html {
 
 /* ======= how it works section ======= */
 .howitworks-wrapper {
-    width: 1440px;
+    max-width: 1440px;
     text-align: center;
     margin: 0 auto;
     /* position: absolute;
@@ -233,7 +233,7 @@ html {
     font-size: 18px;
     color: #272727;
     margin: 50px auto;
-    width: 1100px;
+    max-width: 1100px;
     
 }
 .box-left {
@@ -663,7 +663,7 @@ a:hover {
         width: 530px;
         height: 200px;
         bottom: 179px;
-        right: 111px;
+        right: 360px;
     }
     .caption-wrapper {
         padding: 15px;
