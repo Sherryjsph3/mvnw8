@@ -663,7 +663,7 @@ a:hover {
         width: 530px;
         height: 200px;
         bottom: 179px;
-        right: 360px;
+        right: 110px;
     }
     .caption-wrapper {
         padding: 15px;
@@ -674,5 +674,40 @@ a:hover {
         margin: 0 auto;
     }
 }
+@media(max-width: 991px) { 
+    .header-row {
+        height: 700px;
+    }
+    .header-title {
+        font-size: 50px;
+    }
+    .welcome-icon {
+        /* width:46px; */
+        height: 395px;
+    }
+    .welcome-title {
+        font-size: 18px;
+    }
+    .welcome-text {
+        font-size: 15px;
+        width: 741px;
+    }
+    .whoweare-icon {
+        height:420px;
+    }
+    .headshot-thumb {
+        width: 500px;
+    }
+    .headshot-black {
+        width: 430px;
+        height: 250px;
+        bottom: 113px;
+        right: 22px;
+    }
+    .caption-quote {
+        width: 403px;
+    }
+}
+    
 
 
